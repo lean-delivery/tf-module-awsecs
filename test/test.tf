@@ -1,5 +1,5 @@
 module "ecs" {
-  source = ".."
+  source = "./.."
 
   project     = "Project"
   environment = "dev"
