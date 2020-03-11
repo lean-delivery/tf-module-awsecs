@@ -11,7 +11,7 @@ module "ecs" {
   alb_target_group_arn = "arn:aws:elasticloadbalancing:< region >:< account ID >:targetgroup/< target group name >/3b4e9fbf82439af5"
   container_port       = "80"
 
-  availability_zones = "${var.availability_zones}"
+  availability_zones =
 
   container_definitions = <<EOF
 [
